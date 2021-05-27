@@ -10,7 +10,7 @@
 }
 
 .poster {
-  max-height: 550px;
+  max-height: 250px;
   margin-right: 10px;
   transition: 0.5s;
 }
@@ -20,4 +20,13 @@
 }
 .posters::-webkit-scrollbar {
   display: none;
+}
+
+.small-poster{
+  max-height: 150px;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+.small-poster:hover {
+  transform: scale(1.03);
 }
